@@ -19,12 +19,17 @@ repositories {
 }
 
 dependencies {
+	compileOnly "org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.2"
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+
+
+
 }
 
 tasks.named('test') {
