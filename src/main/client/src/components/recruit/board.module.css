@@ -1,0 +1,8 @@
+.tables {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}

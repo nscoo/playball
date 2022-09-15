@@ -1,0 +1,50 @@
+@value makerNavy from '../common/colors.css';
+
+.content {
+    margin: 0 20em;
+    justify-content: center;
+}
+
+.content__top {
+    margin-top: 2em;
+}
+.carousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    width: 100%;
+}
+
+.login {
+    float: right;
+}
+
+.login__input {
+    margin: 0.2em;
+    font-size: 1em;
+    border: 0.2em solid makerNavy;
+    border-radius: 3em;
+    text-align: center;
+    height: 1.5em;
+}
+
+.login__form {
+    display: flex;
+    gap: 0.5em;
+}
+
+.login__btn {
+    border:none;
+    height: 5em;
+    margin-top: 1.5em;
+    background-color: makerNavy;
+    color:white;
+    padding: 0.5em 1em;
+    font-weight: bold;
+}
+.join {
+    text-align: center;
+    color: gray;
+}
