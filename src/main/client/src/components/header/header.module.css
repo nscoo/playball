@@ -1,0 +1,50 @@
+@value makerNavy from '../../common/colors.css';
+
+li, ul {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    margin: 1em 20em;
+}
+
+.logo {
+
+}
+
+.logo__image {
+    width: 10em;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.menu__list {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu__input{
+    border: 0.2em solid makerNavy;
+    border-radius: 3em;
+    font-size: 1em;
+    padding: 0.4em 0.2em;
+    width: 90%;
+    text-align: center;
+}
+.menu__input:focus{
+    outline: none;
+}
+
+.menu__input__box {
+
+}

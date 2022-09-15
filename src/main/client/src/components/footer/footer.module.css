@@ -1,0 +1,12 @@
+
+.title {
+    padding: 8px 12px;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
